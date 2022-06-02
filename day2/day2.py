@@ -8,13 +8,7 @@ def greatest_common_factor(x, y):
 
 def least_common_multiple(x, y):
     gcf = greatest_common_factor(x, y)
-<<<<<<< HEAD
     lcm = x * y // gcf
-=======
-    x_quotient = x // gcf
-    y_quotient = y // gcf
-    lcm = x_quotient * y_quotient * gcf
->>>>>>> 805ded973779997e1a6e949edabde59966911658
     return lcm
 
 # Test Cases
